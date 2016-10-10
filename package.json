@@ -1,0 +1,28 @@
+{
+  "name": "url-amplifier",
+  "version": "0.1.4",
+  "description": "A small library that expands a URL that has been shortened by a service such as [bit.ly](bit.ly) and follows only one redirect.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Nitin Tulswani <tulswani19@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jshint": "^2.9.3",
+    "nodemon": "^1.11.0",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/nitin42/url-amplifier"
+  },
+  "keywords": [
+    "request",
+    "redirects"
+  ]
+}
