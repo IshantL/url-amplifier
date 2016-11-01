@@ -1,7 +1,7 @@
 /*
 *  Expanding a URL shortened by a service
-*  @param {URL}
-*  return {URL}
+*  @param {string} shortUrl
+*  return {string}
 */
 
 var request = require('request');
