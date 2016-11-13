@@ -1,11 +1,10 @@
-/*
-*  Expanding a URL shortened by a service
-*  @params {string} shortUrl
-*  @returns {string}
-*/
-
 var request = require('request');
 
+/**
+ *  Expanding a URL shortened by a service
+ *  @params {string} shortUrl
+ *  @returns {string}
+ */
 module.exports = function(shortUrl) {
 	request({ method: 'HEAD', url: shortUrl, followAllRedirects: true },
 		function(err, response){
