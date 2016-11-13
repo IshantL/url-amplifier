@@ -1,4 +1,10 @@
-var request = require('request');
+/**
+ * @author Nitin Tulswani <tulswani19@gmail.com>
+ */
+
+'use strict';
+
+const request = require('request');
 
 /**
  *  Expanding a URL shortened by a service
